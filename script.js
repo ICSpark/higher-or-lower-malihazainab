@@ -16,11 +16,24 @@ function generateRandom() {
 
 // Function for the higher button
 function higher() {
-   
+   if (nextRandom > random) {
+    window.alert("You win!");
+   }
+   else if (nextRandom < random) {
+    window.alert("you lose.");
+   }
+   generateRandom();
 }
 
 // Function for the lower button
 function lower() {
+    if (nextRandom < random) {
+        window.alert("You win!");
+       }
+       else if (nextRandom > random) {
+        window.alert("you lose.");
+       }
+       generateRandom();
    
 }
 

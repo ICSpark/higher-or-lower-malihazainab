@@ -6,6 +6,8 @@ body {
 }
 
 h1 {
+    display: flex;
+justify-content: center;
     /*make sure to center this!*/
     font-weight: 700;
     font-size: 50px;
@@ -13,6 +15,8 @@ h1 {
 
 p {
   /*make sure to center this!*/
+  display: flex;
+  justify-content: center;
     font-size: 30px;
     font-weight: bold;
 }
@@ -23,6 +27,8 @@ Use Flexbox to center everything in .center
  */
 
 .center {
+display: flex;
+justify-content: center;
 /*make sure to center this!*/
     height: 50px;
 }
