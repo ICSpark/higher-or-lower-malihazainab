@@ -16,30 +16,12 @@ function generateRandom() {
 
 // Function for the higher button
 function higher() {
-    if (random < nextRandom) {
-        window.alert("Higher! You win!");
-    }
-    else if (random > nextRandom) {
-        window.alert("Lower! You lose!");
-    }
-    else {
-        window.alert("It's the same number again!");
-    }
-    generateRandom();
+   
 }
 
 // Function for the lower button
 function lower() {
-    if (random > nextRandom) {
-        window.alert("Lower! You win!");
-    }
-    else if (random < nextRandom) {
-        window.alert("Higher! You lose!");
-    }
-    else {
-        window.alert("It's the same number again!");
-    }
-    generateRandom();
+   
 }
 
 //Generate a number to start the game!
